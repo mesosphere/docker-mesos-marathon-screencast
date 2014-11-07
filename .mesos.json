@@ -1,0 +1,8 @@
+{
+    "default": {
+        "log_level": "warning", 
+        "log_file": null, 
+        "master": "10.67.63.236:5050"
+    }, 
+    "profile": "default"
+}

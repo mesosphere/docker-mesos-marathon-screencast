@@ -1,0 +1,16 @@
+{
+  "id": "redis-constraint",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "redis",
+      "network": "BRIDGE"
+    }    
+  },
+  "id": "redis",
+  "instances": "1",
+  "cpus": "0.25",
+  "mem": "256",
+  "uris": [],
+  "constraints": [["rack", "CLUSTER", "rack-2"]]
+}

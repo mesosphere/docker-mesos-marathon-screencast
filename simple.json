@@ -1,0 +1,8 @@
+{
+  "id": "simple",
+  "cmd": "while sleep 10; do date -u +%T; done",
+  "mem": 16,
+  "cpus": 0.1,
+  "instances": 1,
+  "uris": []
+}
