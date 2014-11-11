@@ -1,9 +1,7 @@
-docker-mesos-marthon-screencast
+docker-mesos-marathon-screencast
 ===============================
 
-The scripts used in the Docker Clustering on Mesos with Marathon screencast.
-
-Screencast:  
+The scripts used in the [*Docker Clustering on Mesos with Marathon*](http://www.youtube.com/watch?v=hZNGST2vIds&feature=youtu.be) screencast.
 
 ## Getting Started
 
