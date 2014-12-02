@@ -1,0 +1,13 @@
+{ 
+	"schedule" : "R5/2014-12-01T05:31:00.000Z/PT10S",    
+	"name" : "FOR_LOOP_DOCKER",
+	"container": {
+   	"type": "DOCKER",
+   	"image": "libmesos/ubuntu"
+ 	},
+ 	"cpus": "0.5",
+ 	"mem": "256",   
+	"command" : "for i in `seq 1 10`; do echo 'sleeping...  $i'; sleep 2; done",
+	"owner" : "chronos-user@example.com",  
+	"async" : false 
+}

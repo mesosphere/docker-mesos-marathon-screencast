@@ -1,0 +1,9 @@
+{ 
+	"parents" : ["FOR_LOOP_DOCKER"],
+	"name" : "HELLO",
+ 	"cpus": "0.5",
+ 	"mem": "256",   
+	"command" : "echo 'HELLO'; sleep 2; done",
+	"owner" : "chronos-user@example.com",  
+	"async" : false 
+}

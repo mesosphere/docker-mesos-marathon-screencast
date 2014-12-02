@@ -1,0 +1,10 @@
+{ 
+	"schedule" : "R5/2014-12-01T05:31:00.000Z/PT10S",  
+	"epsilon" : "PT10M",  
+	"name" : "ECHO_DATE",
+ 	"cpus": "0.5",
+ 	"mem": "256",   
+	"command" : "date >> /tmp/ECHO_DATE_01",  
+	"owner" : "chronos-user@example.com",  
+	"async" : false 
+}
